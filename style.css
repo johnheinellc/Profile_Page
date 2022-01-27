@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#browser{
+    width: 670px;
+    height: 580px;
+    border: 2px solid black;
+    background-color: aliceblue;
+}
+#header{
+    width: auto;
+    height: 30px;
+    background-color: rgb(10, 5, 27);
+    display: flex;
+    
+}
+.navBar{
+    display: flex;
+    align-items: center;
+    margin-left: 35px;
+    gap: 1.5em;
+
+}
+.navBarTitle, .navBarButtons, a{
+    color: whitesmoke;
+    font-size: smaller;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: .5em;
+    
+}
+.navBarTitle{
+    font-size: large;
+}
+.bold{
+    font-weight: bolder;
+}
+.button{
+    display: flex;
+}
+.btn{
+    width: 100px;
+    height: 75%;
+    margin-left: 220px;
+    justify-content: space-between;
+    color: whitesmoke;
+    border-radius: 5%;
+    background-color: turquoise;
+}
+#body{
+    width: 350px;
+    height: 353px;
+    margin-top: 15px;
+    margin-left: 35px;
+
+}
+.mainContent{
+    margin: 0;
+}
+
+#userCard{
+    width: 400px;
+    height: 350px;
+    border: 2px solid black;
+    margin-top: 10px;
+}
+.header{
+    background-color: cadetblue;
+    width: auto;
+    height: 80px;
+}
+.content{
+    position: fixed; top: 40px;
+    margin-left: 20px;
+}
+.profilePic{
+    height: 80px;
+    border-radius: 50%;
+    border: 7px solid cadetblue;
+    margin-top: 30px;
+}
+h2{
+    font-size: xx-large;
+    margin-left: -10px;
+}
+.location{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    margin-left: -6px;
+}
+.locationIcon, .editIcon{
+    height: 18px;
+ 
+}
+.par{
+    margin-top: 20px;
+    line-height: 1.5em;
+}
+.edit{
+    margin-top: 80px;
+    margin-left: -7.75px;
+    gap: .2em;
+    display: flex;
+    align-items: center
+}
+.blueLink{
+    color: rgb(49, 49, 228);
+}
+#education{
+    width: 400px;
+    height: 165px;
+    border: 2px solid black;
+    margin-top: 12.5px;
+    
+}
+.header2{
+    width: auto;
+    height: 30px;
+    background-color: rgb(10, 5, 27);
+    align-items: center;
+    justify-content: center;
+}
+.header2Text{
+    color: whitesmoke;
+    font-size: large;
+    margin-left: 15px;
+    padding: 3px;   
+}
+.educationText{
+    margin: 15px;
+    line-height: 2.5em;
+}
+.educationText1{
+    color: rgba(0, 0, 0, 0.35);
+}
+
+#contacts{
+    width: 185px;
+    height: 535px;
+    position: fixed;
+    margin-top: -535px;
+    margin-left: 418px;
+}
+.contactRequests{
+    border: 2px, solid, black;
+    border: inset;
+    width: 185px;
+    height: 180px;
+}
+.contactLines{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 10px;
+}
+.contactHeader1, .contactHeader2{
+    width: auto;
+    height: 30px;
+    background-color: rgb(10, 5, 27,.8);
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .3em;
+}
+.span1 {
+    display: block;
+    height: 20px;
+    width: 20px;
+    line-height: 18px;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    background-color: whitesmoke;
+    color: rgb(10, 5, 27,.8);
+    text-align: center;
+    font-size: 1em;
+}
+.span2 {
+    display: block;
+    height: 20px;
+    width: 50px;
+    line-height: 15px;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    background-color: whitesmoke;
+    color: rgb(10, 5, 27,.8);
+    text-align: center;
+    font-size: 1em;
+}
+.contactsInfo{
+    border: 2px, solid, black;
+    border: inset;
+    margin-top: 15px;
+    width: 185px;
+    height: 315px;
+    /* position: relative; */
+}
+.contact1, .contact2, .contact3, .contact4, .contact5, .contact6{
+    border-radius: 50%;
+    border: 2px, solid, black;
+    width: 35px;
+    margin-top: 20px;
+    margin-left: 5px;
+}
+.yesNo{
+    height: 15px;
+}
+.contactFooter{
+    width: auto;
+    height: 30px;
+    border: inset;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .3em;
+    margin-top: 32px;
+}
+.viewMore{
+    color: blue;
+    margin-right: 5px;
+}
+.textShift, .yesNo{
+    margin-top: 18px;
+}
+/* 
+
+*/ 
